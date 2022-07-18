@@ -1,0 +1,19 @@
+#server:
+#  port: 8081
+#security:
+#  oauth2:
+#    resource:
+#      userInfoUri: https://erp-dev.auth.ap-south-1.amazoncognito.com/oauth2/userInfo
+#      tokenInfoUri: https://erp-dev.auth.ap-south-1.amazoncognito.com/oauth2/token
+#      jwk:
+#        key-set-uri: https://cognito-idp.ap-south-1.amazonaws.com/ap-south-1_IT7rYXJk0/.well-known/jwks.json
+#    client:
+#      clientId: 6es0qsp0nou071oqbple6cjhlc
+#
+#      
+#com:
+#  cloven:
+#    jwt:
+#      aws:
+#        userPoolId: "ap-south-1_IT7rYXJk0"
+#        region: "ap-south-1"
